@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[My OpooPress Blog]]></title>
+  <link href="http://yourwebsite.com/atom.xml" rel="self"/>
+  <link href="http://yourwebsite.com/"/>
+  <updated>2013-11-25T03:07:57+08:00</updated>
+  <id>http://yourwebsite.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://press.opoo.org/">OpooPress</generator>
+
+  <entry>
+    <title type="html"><![CDATA[测试opoopress]]></title>
+    <link href="http://yourwebsite.com/article/2013/11/opoopress/"/>
+    <updated>2013-11-03T00:15:00+08:00</updated>
+    <id>http://yourwebsite.com/article/2013/11/opoopress/</id>
+    <content type="html"><![CDATA[<h2>测试一下opoopress</h2>
+<p>实时测试，感觉不错。再次测</p>
+]]></content>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[Hello World!]]></title>
+    <link href="http://yourwebsite.com/article/2013/11/hello-world/"/>
+    <updated>2013-11-03T00:05:00+08:00</updated>
+    <id>http://yourwebsite.com/article/2013/11/hello-world/</id>
+    <content type="html"><![CDATA[<p>Welcome to OpooPress. This is your first post.</p>
+<p>Edit or delete it, then start blogging!</p>
+]]></content>
+  </entry>
+</feed>
