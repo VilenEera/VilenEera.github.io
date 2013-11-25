@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[My OpooPress Blog]]></title>
-  <link href="http://yourwebsite.com/atom.xml" rel="self"/>
-  <link href="http://yourwebsite.com/"/>
-  <updated>2013-11-25T12:50:32+08:00</updated>
-  <id>http://yourwebsite.com/</id>
+  <link href="http://vileneera.github.io/atom.xml" rel="self"/>
+  <link href="http://vileneera.github.io/"/>
+  <updated>2013-11-25T12:59:50+08:00</updated>
+  <id>http://vileneera.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
@@ -13,9 +13,9 @@
 
   <entry>
     <title type="html"><![CDATA[Linux(opensuse) 下的 ISO 挂载]]></title>
-    <link href="http://yourwebsite.com/article/2013/11/linux-mount-iso/"/>
+    <link href="http://vileneera.github.io/article/2013/11/linux-mount-iso/"/>
     <updated>2013-11-25T12:38:00+08:00</updated>
-    <id>http://yourwebsite.com/article/2013/11/linux-mount-iso/</id>
+    <id>http://vileneera.github.io/article/2013/11/linux-mount-iso/</id>
     <content type="html"><![CDATA[<h3>加载部分</h3>
 <p>首先创建个新目录</p>
 <pre>sudo mkdir /mnt/iso
@@ -35,9 +35,9 @@
   </entry>
   <entry>
     <title type="html"><![CDATA[新博客]]></title>
-    <link href="http://yourwebsite.com/article/2013/11/newblog/"/>
+    <link href="http://vileneera.github.io/article/2013/11/newblog/"/>
     <updated>2013-11-25T03:43:00+08:00</updated>
-    <id>http://yourwebsite.com/article/2013/11/newblog/</id>
+    <id>http://vileneera.github.io/article/2013/11/newblog/</id>
     <content type="html"><![CDATA[<pre>mvn op:new-post -Dtitle="世界，你好" -Dname="hello-world"
 fatal: You are on a branch yet to be born
 </pre><p>Create a new repository on the command line</p>
@@ -51,18 +51,18 @@ git push -u origin master
   </entry>
   <entry>
     <title type="html"><![CDATA[测试opoopress]]></title>
-    <link href="http://yourwebsite.com/article/2013/11/opoopress/"/>
+    <link href="http://vileneera.github.io/article/2013/11/opoopress/"/>
     <updated>2013-11-03T00:15:00+08:00</updated>
-    <id>http://yourwebsite.com/article/2013/11/opoopress/</id>
+    <id>http://vileneera.github.io/article/2013/11/opoopress/</id>
     <content type="html"><![CDATA[<h2>测试一下opoopress</h2>
 <p>实时测试，感觉不错。再次测</p>
 ]]></content>
   </entry>
   <entry>
     <title type="html"><![CDATA[Hello World!]]></title>
-    <link href="http://yourwebsite.com/article/2013/11/hello-world/"/>
+    <link href="http://vileneera.github.io/article/2013/11/hello-world/"/>
     <updated>2013-11-03T00:05:00+08:00</updated>
-    <id>http://yourwebsite.com/article/2013/11/hello-world/</id>
+    <id>http://vileneera.github.io/article/2013/11/hello-world/</id>
     <content type="html"><![CDATA[<p>Welcome to OpooPress. This is your first post.</p>
 <p>Edit or delete it, then start blogging!</p>
 ]]></content>
