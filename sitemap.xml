@@ -2,15 +2,23 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://yourwebsite.com/</loc>
-        <lastmod>2013-11-03T00:15:00+08:00</lastmod>
+        <lastmod>2013-11-25T12:38:00+08:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
     </url>
     <url>
         <loc>http://yourwebsite.com/archives/</loc>
-        <lastmod>2013-11-03T00:15:00+08:00</lastmod>
+        <lastmod>2013-11-25T12:38:00+08:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://yourwebsite.com/article/2013/11/linux-mount-iso/</loc>
+        <lastmod>2013-11-25T12:38:00+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://yourwebsite.com/article/2013/11/newblog/</loc>
+        <lastmod>2013-11-25T03:43:00+08:00</lastmod>
     </url>
     <url>
         <loc>http://yourwebsite.com/article/2013/11/opoopress/</loc>

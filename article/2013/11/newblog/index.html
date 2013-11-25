@@ -4,16 +4,16 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My OpooPress Blog</title>
+  <title>新博客 - My OpooPress Blog</title>
   <meta name="author" content="Your Name">
-  <meta name="description" content="OpooPress blogging framework is a java basesd static blog/site generator.">
+  
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="OpooPressSiteRoot" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="Generator" content="OpooPress-1.0.3"/>
   <meta name="Generated" content="2013-11-25T12:50:32+08:00"/>
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="/article/2013/11/newblog/">
   <link href="/favicon.ico" rel="icon">
   <link href="/atom.xml" rel="alternate" title="My OpooPress Blog" type="application/atom+xml">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -40,7 +40,7 @@
 <fieldset class="mobile-nav">
   <select onchange="if (this.value) { window.location.href = this.value;}">
     <option value="">Navigate&hellip;</option>
-    <option value="/" selected="selected">&raquo; Blog</option>
+    <option value="/">&raquo; Blog</option>
     <option value="/archives/">&raquo; Archives</option>
     <option value="/sample-page.html">&raquo; Sample Page</option>
     <option value="/about/">&raquo; About</option>
@@ -56,39 +56,10 @@
 </nav>
   <div id="main">
     <div id="content">
-<div class="blog-index">
-    <article>
+<div>
+<article class="hentry" role="article">
   <header>
-      <h1 class="entry-title"><a href="/article/2013/11/linux-mount-iso/">Linux(opensuse) 下的 ISO 挂载</a></h1>
-
-      <p class="meta">
-		
-
-
-<time datetime="2013-11-25T12:38:00+08:00" pubdate>Nov 25 2013</time>
-      </p>
-  </header>
-
-  <div class="entry-content"><h3>加载部分</h3>
-<p>首先创建个新目录</p>
-<pre>sudo mkdir /mnt/iso
-</pre><p>然后尝试加载</p>
-<pre>sudo mount -o XX.iso /mnt/iso   
-</pre><p>然后会提示</p>
-<pre>mount: can't find /mnt/iso in /etc/fstab
-</pre><p>别看表面意思,原来是没有指定iso格式,那怎么查看呢</p>
-<pre>file XX.iso
-</pre><p>然后如果是 iso966 那么执行</p>
-<pre>sudo mount -o loop -t iso9660 xx.iso /mnt
-</pre><p>如果是 udf 的光盘映像</p>
-<pre>sudo mount -o loop -t udf xx.iso /mnt
-</pre><h3>卸载部分</h3>
-<pre>sudo umount /mnt/iso
-</pre></div>
-    </article>
-    <article>
-  <header>
-      <h1 class="entry-title"><a href="/article/2013/11/newblog/">新博客</a></h1>
+      <h1 class="entry-title">新博客</h1>
 
       <p class="meta">
 		
@@ -108,55 +79,24 @@ git commit -m "first commit"
 git remote add origin git@github.com:VilenEera/test.git
 git push -u origin master
 </pre></div>
-    </article>
-    <article>
-  <header>
-      <h1 class="entry-title"><a href="/article/2013/11/opoopress/">测试opoopress</a></h1>
-
-      <p class="meta">
-		
+  <footer>
+    <p class="meta">
+<span class="byline author vcard">Posted by <span class="fn">Your Name</span></span>      
 
 
-<time datetime="2013-11-03T00:15:00+08:00" pubdate>Nov 3 2013</time>
-      </p>
-  </header>
-
-  <div class="entry-content"><h2>测试一下opoopress</h2>
-<p>实时测试，感觉不错。再次测</p>
-</div>
-    </article>
-    <article>
-  <header>
-      <h1 class="entry-title"><a href="/article/2013/11/hello-world/">Hello World!</a></h1>
-
-      <p class="meta">
-		
-
-
-<time datetime="2013-11-03T00:05:00+08:00" pubdate>Nov 3 2013</time>
-      </p>
-  </header>
-
-  <div class="entry-content"><p>Welcome to OpooPress. This is your first post.</p>
-<p>Edit or delete it, then start blogging!</p>
-</div>
-    </article>
-  
-  <div class="pagination">
-<span class="pagebar">
-<span class="nolink-page">1/1</span>
+<time datetime="2013-11-25T03:43:00+08:00" pubdate>Nov 25 2013</time>
 
 
 
-
-<span class="current-page">1</span>
-
-
-
-
-</span>
-<a class="next" href="/archives">Blog Archives</a>
+    </p>
+<div class="sharing">
   </div>
+    <p class="meta">
+        <a class="basic-alignment left" href="/article/2013/11/opoopress/" title="Previous Post: 测试opoopress">&laquo; 测试opoopress</a>
+        <a class="basic-alignment right" href="/article/2013/11/linux-mount-iso/" title="Next Post: Linux(opensuse) 下的 ISO 挂载">Linux(opensuse) 下的 ISO 挂载 &raquo;</a>
+    </p>
+  </footer>
+</article>
 </div>
 <aside class="sidebar">
 <section>
@@ -207,10 +147,11 @@ git push -u origin master
 <script type="text/javascript" src="/javascripts/opoopress.min.js"></script>
 <script language="JavaScript">
 <!--
-    window.OpooPress = new OpooPressApp({siteUrl:'http://yourwebsite.com',rootUrl:'',pageUrl:'/',refreshRelativeTimes:true,verbose:true},{});
+    window.OpooPress = new OpooPressApp({siteUrl:'http://yourwebsite.com',rootUrl:'',pageUrl:'/article/2013/11/newblog/',title:'新博客',refreshRelativeTimes:true,verbose:true},{});
     OpooPress.init();
 
 //-->
 </script>
 </body>
 </html>
+

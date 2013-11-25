@@ -3,7 +3,7 @@
   <title><![CDATA[My OpooPress Blog]]></title>
   <link href="http://yourwebsite.com/atom.xml" rel="self"/>
   <link href="http://yourwebsite.com/"/>
-  <updated>2013-11-25T03:07:57+08:00</updated>
+  <updated>2013-11-25T12:50:32+08:00</updated>
   <id>http://yourwebsite.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -11,6 +11,44 @@
   </author>
   <generator uri="http://press.opoo.org/">OpooPress</generator>
 
+  <entry>
+    <title type="html"><![CDATA[Linux(opensuse) 下的 ISO 挂载]]></title>
+    <link href="http://yourwebsite.com/article/2013/11/linux-mount-iso/"/>
+    <updated>2013-11-25T12:38:00+08:00</updated>
+    <id>http://yourwebsite.com/article/2013/11/linux-mount-iso/</id>
+    <content type="html"><![CDATA[<h3>加载部分</h3>
+<p>首先创建个新目录</p>
+<pre>sudo mkdir /mnt/iso
+</pre><p>然后尝试加载</p>
+<pre>sudo mount -o XX.iso /mnt/iso   
+</pre><p>然后会提示</p>
+<pre>mount: can't find /mnt/iso in /etc/fstab
+</pre><p>别看表面意思,原来是没有指定iso格式,那怎么查看呢</p>
+<pre>file XX.iso
+</pre><p>然后如果是 iso966 那么执行</p>
+<pre>sudo mount -o loop -t iso9660 xx.iso /mnt
+</pre><p>如果是 udf 的光盘映像</p>
+<pre>sudo mount -o loop -t udf xx.iso /mnt
+</pre><h3>卸载部分</h3>
+<pre>sudo umount /mnt/iso
+</pre>]]></content>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[新博客]]></title>
+    <link href="http://yourwebsite.com/article/2013/11/newblog/"/>
+    <updated>2013-11-25T03:43:00+08:00</updated>
+    <id>http://yourwebsite.com/article/2013/11/newblog/</id>
+    <content type="html"><![CDATA[<pre>mvn op:new-post -Dtitle="世界，你好" -Dname="hello-world"
+fatal: You are on a branch yet to be born
+</pre><p>Create a new repository on the command line</p>
+<pre>touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:VilenEera/test.git
+git push -u origin master
+</pre>]]></content>
+  </entry>
   <entry>
     <title type="html"><![CDATA[测试opoopress]]></title>
     <link href="http://yourwebsite.com/article/2013/11/opoopress/"/>
